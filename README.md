@@ -2,7 +2,7 @@
 
 Aplicação de console em C# para cadastrar avaliações de filmes com CRUD completo, persistência local usando Entity Framework Core e SQLite.
 
-## 👥 Integrantes da Equipe
+## Integrantes da Equipe
 
 | **Nome**                   | **RM**   |
 |-----------------------------|----------|
@@ -12,11 +12,16 @@ Aplicação de console em C# para cadastrar avaliações de filmes com CRUD comp
 | Henrique de Brito          | RM98831  |
 | Rodrigo Lima               | RM98326  |
 
-## Visão geral
-- Cadastro de avaliações com: Id, título do filme, estrelas (1 a 5) e descrição
-- Operações: listar, adicionar, editar e remover
-- Persistência com EF Core em arquivo SQLite (`movieratings.db`)
-- Migrations aplicadas automaticamente ao iniciar
+## Descrição
+
+Esse projeto permite que o usuário gerencie avaliações de filmes via terminal, com operações de **listar**, **adicionar**, **editar** e **remover** avaliações. As avaliações têm os campos:
+
+- Id  
+- Título do filme  
+- Estrelas (1 a 5)  
+- Descrição (opcional)
+
+A persistência é feita por meio do **Entity Framework Core** usando **SQLite** em arquivo local. Migrações são aplicadas automaticamente no início da aplicação.
 
 ## Tecnologias e ferramentas
 - **.NET**: 9.0 (Console App)
