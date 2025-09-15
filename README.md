@@ -2,6 +2,16 @@
 
 Aplicação de console em C# para cadastrar avaliações de filmes com CRUD completo, persistência local usando Entity Framework Core e SQLite.
 
+## 👥 Integrantes da Equipe
+
+| **Nome**                   | **RM**   |
+|-----------------------------|----------|
+| Rodrigo Fernandes Serafim  | RM550816 |
+| João Antonio Rihan         | RM99656  |
+| Adriano Lopes              | RM98574  |
+| Henrique de Brito          | RM98831  |
+| Rodrigo Lima               | RM98326  |
+
 ## Visão geral
 - Cadastro de avaliações com: Id, título do filme, estrelas (1 a 5) e descrição
 - Operações: listar, adicionar, editar e remover
@@ -44,11 +54,11 @@ movieratings.db                 # Banco de dados SQLite (gerado em runtime)
 ```
 
 ## Fluxo do console (CRUD)
-- 1) Listar avaliações
-- 2) Adicionar avaliação
-- 3) Editar avaliação
-- 4) Remover avaliação
-- 0) Sair
+1) Listar avaliações
+2) Adicionar avaliação
+3) Editar avaliação
+4) Remover avaliação
+0) Sair
 
 Validações básicas:
 - Estrelas devem estar entre 1 e 5
